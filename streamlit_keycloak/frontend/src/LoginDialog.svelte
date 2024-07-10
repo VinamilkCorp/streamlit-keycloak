@@ -15,7 +15,7 @@
     }
 
     const openPopup = (url: string): void => {
-        const width = 400
+        const width = 600
         const height = 600
         const left = window.screenX + (window.innerWidth - width) / 2
         const top = window.screenY + (window.innerHeight - height) / 2
@@ -77,14 +77,14 @@
     let showPopup = false
 </script>
 
-<div class="alert alert-warning" on:loggedin>
-    <button type="button" class="btn btn-primary" on:click={createLoginPopup}>
+<div class="alert alert-warning layout-vnm" on:loggedin>
+    <button type="button" class="btn btn-primary btn-vnm" on:click={createLoginPopup}>
         <span>{labels.labelButton}</span>
     </button>
-    <span class="mx-3">{labels.labelLogin}</span>
+    <span class="mx-3 lable-login-vnm">{labels.labelLogin}</span>
     {#if showPopup}
         {#await authenticateWithPopup(currentPopup) catch error}
-            <div class="alert alert-danger mt-3 mb-0">{error.message}</div>
+            <div class="alert alert-danger mt-3 mb-0 lable-login-failed-vnm">{error.message}</div>
         {/await}
     {/if}
 </div>

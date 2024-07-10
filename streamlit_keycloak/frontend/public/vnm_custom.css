@@ -1,0 +1,31 @@
+.layout-vnm {
+    color:azure !important;
+    padding: 0px 0px !important;
+    border-radius: 0px !important;
+    border: 0px solid transparent;
+    background-color: rgb(14, 17, 23) !important;
+    border-color: rgb(14, 17, 23) !important;
+}
+
+.btn-vnm {
+    border-bottom-right-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+    border-top-left-radius: 0.5rem !important;
+}
+
+.lable-login-vnm {
+    color: azure !important;
+}
+
+.lable-login-failed-vnm {
+    color: rgb(255, 222, 222) !important;
+    background-color: rgba(255, 108, 108, 0.2) !important;
+    padding: 0px 0px !important;
+    border-color: rgb(14, 17, 23) !important;
+    border-bottom-right-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+    border-bottom-left-radius: 0.5rem !important;
+    border-top-left-radius: 0.5rem !important;
+    padding: 16px !important;
+}
